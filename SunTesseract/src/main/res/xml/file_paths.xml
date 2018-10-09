@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--Environment.getExternalStorageDirectory()-->
+    <external-path path="sunxyPhoto" name="external_root" />
+
+    <!--Context.getExternalFilesDir()-->
+    <external-files-path path="info" name="files_root" />
+
+    <!--Context.getExternalCacheDir()-->
+    <external-cache-path path="imageCache" name="cache_root" />
+
+    <!--Environment.getExternalStorageDirectory()-->
+    <external-path name="all_file" path="/"/>
+
+</paths>
