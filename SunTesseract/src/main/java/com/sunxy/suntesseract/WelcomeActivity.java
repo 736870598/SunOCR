@@ -80,6 +80,7 @@ public class WelcomeActivity extends Activity {
                     @Override
                     public void accept(String s) throws Exception {
                         startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                        finish();
                     }
                 });
     }
